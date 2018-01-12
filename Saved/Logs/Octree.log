@@ -1,0 +1,848 @@
+﻿Log file open, 01/12/18 13:58:08
+LogInit:Display: Running engine for game: Octree
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1549047376) SRandInit(1549047376).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.168017
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.12-21.58.08:979][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.12-21.58.08:979][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.12-21.58.09:014][  0]LogInit: Computer: WIN-RKF9UACI43K
+[2018.01.12-21.58.09:014][  0]LogInit: User: ryang
+[2018.01.12-21.58.09:014][  0]LogInit: CPU Page size=4096, Cores=6
+[2018.01.12-21.58.09:014][  0]LogInit: High frequency timer resolution =3.320303 MHz
+[2018.01.12-21.58.09:015][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx)
+[2018.01.12-21.58.09:015][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.12-21.58.09:015][  0]LogMemory: Process Physical Memory: 274.05 MB used, 274.05 MB peak
+[2018.01.12-21.58.09:015][  0]LogMemory: Process Virtual Memory: 267.36 MB used, 267.36 MB peak
+[2018.01.12-21.58.09:015][  0]LogMemory: Physical Memory: 8445.07 MB used,  24237.67 MB free, 32682.75 MB total
+[2018.01.12-21.58.09:015][  0]LogMemory: Virtual Memory: 686.07 MB used,  24237.67 MB free, 134217728.00 MB total
+[2018.01.12-21.58.09:530][  0]LogInit: Using OS detected language (en-US).
+[2018.01.12-21.58.09:530][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.12-21.58.09:613][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.12-21.58.13:698][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.12-21.58.13:737][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.01.12-21.58.13:737][  0]LogD3D11RHI:       8086/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:4, VendorId:0x10de
+[2018.01.12-21.58.13:739][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.12-21.58.13:739][  0]LogD3D11RHI:       0/0/16341 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.12-21.58.13:739][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.12-21.58.13:748][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.12-21.58.13:749][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.12-21.58.13:749][  0]LogWindows: EnumDisplayDevices:
+[2018.01.12-21.58.13:749][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.01.12-21.58.13:749][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.01.12-21.58.13:749][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.01.12-21.58.13:749][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2018.01.12-21.58.13:749][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.12-21.58.13:749][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.01.12-21.58.13:749][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.12-21.58.13:749][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.12-21.58.13:750][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.12-21.58.13:773][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.12-21.58.13:809][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.12-21.58.13:950][  0]LogShaderCompilers: Guid format shader working directory is -33 characters bigger than the processId version (../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Intermediate/Shaders/WorkingDirectory/21656/).
+[2018.01.12-21.58.13:950][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/ryang/AppData/Local/Temp/UnrealShaderWorkingDir/8286726B4EE351950A54BAA52F7DDAFB/'.
+[2018.01.12-21.58.13:951][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.12-21.58.16:077][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.12-21.58.16:146][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.12-21.58.16:212][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.12-21.58.16:275][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.12-21.58.16:343][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.12-21.58.16:407][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.12-21.58.16:472][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.12-21.58.16:537][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.12-21.58.16:597][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.12-21.58.16:665][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.12-21.58.16:736][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.12-21.58.16:801][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.12-21.58.16:862][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.12-21.58.16:933][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.12-21.58.17:000][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.12-21.58.17:127][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.12-21.58.17:127][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.12-21.58.17:182][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.12-21.58.17:313][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.12-21.58.17:352][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.12-21.58.17:417][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.12-21.58.17:483][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.12-21.58.17:548][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.12-21.58.17:619][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.12-21.58.17:619][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.12-21.58.18:373][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.12-21.58.18:845][  0]LogDerivedDataCache: Loaded boot cache 0.47s 88MB C:/Users/ryang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.12-21.58.18:845][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/ryang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.12-21.58.18:845][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.12-21.58.18:845][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.12-21.58.18:845][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.12-21.58.18:845][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.12-21.58.18:868][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.12-21.58.18:880][  0]LogDerivedDataCache: Using Local data cache path C:/Users/ryang/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.12-21.58.18:906][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.12-21.58.18:911][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.12-21.58.18:927][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.12-21.58.18:927][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.12-21.58.19:834][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.12-21.58.20:090][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.12-21.58.20:394][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.12-21.58.20:460][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.12-21.58.20:530][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.12-21.58.20:530][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.12-21.58.20:530][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.12-21.58.21:844][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2018.01.12-21.58.22:046][  0]LogNetVersion: Octree , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4273353768)
+[2018.01.12-21.58.22:153][  0]LogAssetRegistry: FAssetRegistry took 0.0286 seconds to start up
+[2018.01.12-21.58.22:240][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.049835 seconds
+[2018.01.12-21.58.22:247][  0]LogUObjectArray: 34195 objects as part of root set at end of initial load.
+[2018.01.12-21.58.22:247][  0]LogUObjectAllocator: 7260640 out of 0 bytes used by permanent object pool.
+[2018.01.12-21.58.22:247][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.12-21.58.22:367][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.12-21.58.27:799][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.12-21.58.27:865][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.12-21.58.28:641][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.12-21.58.29:255][  0]SourceControl: Info Source control is disabled
+[2018.01.12-21.58.29:344][  0]SourceControl: Info Source control is disabled
+[2018.01.12-21.58.29:439][  0]SourceControl: Info Source control is disabled
+[2018.01.12-21.58.29:507][  0]SourceControl: Info Source control is disabled
+[2018.01.12-21.58.30:502][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.12-21.58.31:316][  0]LogEngine: Initializing Engine...
+[2018.01.12-21.58.31:318][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.12-21.58.31:532][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.12-21.58.31:532][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.12-21.58.31:718][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.12-21.58.31:739][  0]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-21.58.31:751][  0]LogInit: FAudioDevice initialized.
+[2018.01.12-21.58.31:794][  0]LogDerivedDataCache: Saved boot cache 0.04s 101MB C:/Users/ryang/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.12-21.58.31:809][  0]LogInit: Texture streaming: Enabled
+[2018.01.12-21.58.31:951][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.12-21.58.31:951][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={280D0EB8-4732-AB5F-546E-0B9D07694884}
+[2018.01.12-21.58.32:306][  0]LogInit: Transaction tracking system initialized
+[2018.01.12-21.58.32:985][  0]BlueprintLog: New page: Editor Load
+[2018.01.12-21.58.34:394][  0]LocalizationService: Info Localization service is disabled
+[2018.01.12-21.58.35:454][  0]LogConsoleResponse:Display: 
+[2018.01.12-21.58.35:728][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/' took 0.01s
+[2018.01.12-21.58.35:728][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.12-21.58.35:728][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.12-21.58.37:533][  0]SourceControl: Info Source control is disabled
+[2018.01.12-21.58.37:535][  0]Cmd: MAP LOAD FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.12-21.58.37:537][  0]LightingResults: New page: Lighting Build
+[2018.01.12-21.58.37:616][  0]MapCheck: New page: Map Check
+[2018.01.12-21.58.37:616][  0]LightingResults: New page: Lighting Build
+[2018.01.12-21.58.37:821][  0]LogTexture:Display: Building textures: CubeBevelNormal (BC5, 1024X1024)
+[2018.01.12-21.58.37:894][  0]LogMaterial: Missing cached shader map for material M_Cube, compiling. 
+[2018.01.12-21.58.37:930][  0]LogMaterial: Missing cached shader map for material M_Projected, compiling. 
+[2018.01.12-21.58.37:964][  0]LogMaterial: Missing cached shader map for material M_Noise, compiling. 
+[2018.01.12-21.58.37:978][  0]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-21.58.38:023][  0]LogMaterial: Missing cached shader map for material M_Angled, compiling. 
+[2018.01.12-21.58.38:079][  0]LogStaticMesh: Building static mesh CubeUV...
+[2018.01.12-21.58.38:084][  0]LogStaticMesh: Built static mesh [0.02s] /Game/CubeUV.CubeUV
+[2018.01.12-21.58.38:133][  0]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-21.58.38:412][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.12-21.58.38:431][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.12-21.58.38:523][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 92.083ms to complete.
+[2018.01.12-21.58.38:523][  0]LogFileHelpers: Loading map 'TestLevel' took 0.989
+[2018.01.12-21.58.38:956][  0]LogCollectionManager: Loaded 0 collections in 0.002784 seconds
+[2018.01.12-21.58.39:147][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Collections/' took 0.01s
+[2018.01.12-21.58.39:147][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/Developers/ryang/Collections/' took 0.01s
+[2018.01.12-21.58.39:147][  0]LogFileCache: Scanning file cache for directory 'C:/Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/Collections/' took 0.01s
+[2018.01.12-21.58.39:147][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2018.01.12-21.58.39:166][  0]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2329 classes and 491 folders.
+[2018.01.12-21.58.39:324][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.01.12-21.58.39:958][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.01.12-21.58.40:068][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.01.12-21.58.40:312][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.12-21.58.40:334][  0]LogSlate: Took 0.008872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.12-21.58.40:344][  0]LogSlate: Took 0.007916 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.12-21.58.40:361][  0]LogSlate: Took 0.007685 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.12-21.58.40:570][  0]LogRenderer: Reallocating scene render targets to support 1812x976 NumSamples 1 (Frame:1).
+[2018.01.12-21.58.41:038][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.12-21.58.41:209][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.12-21.58.41:209][  0]LogLoad: (Engine Initialization) Total time: 35.63 seconds
+[2018.01.12-21.58.41:209][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2018.01.12-21.58.41:209][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.12-21.58.41:209][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.12-21.58.41:550][  0]LogOcInput: OculusInput pre-init called
+[2018.01.12-21.58.41:550][  0]LogHMD: Starting GearVRController plugin
+[2018.01.12-21.58.41:571][  0]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2018.01.12-21.58.41:596][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.12-21.58.41:902][  1]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2018.01.12-21.58.41:925][  1]LogAssetRegistry: Asset discovery search completed in 19.7943 seconds
+[2018.01.12-21.58.41:927][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.12-21.58.41:927][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000080 seconds (updated 0 objects)
+[2018.01.12-21.58.42:220][  2]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2018.01.12-21.59.46:118][502]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2018.01.12-21.59.51:372][ 94]Cmd: TRANSACTION UNDO
+[2018.01.12-21.59.51:372][ 94]LogEditorTransaction: Undo Move Actors
+[2018.01.12-21.59.51:421][ 94]LogSlate: Took 0.006880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.12-21.59.51:817][128]Cmd: TRANSACTION UNDO
+[2018.01.12-21.59.51:817][128]LogEditorTransaction: Undo Move Actors
+[2018.01.12-21.59.52:692][228]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube4)
+[2018.01.12-22.00.42:665][643]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube2)
+[2018.01.12-22.00.49:351][330]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.01.01:290][584]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.01.12:772][776]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.01.12:799][776]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.01.12:800][776]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:01:12 AM)
+[2018.01.12-22.01.12:801][776]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.01.12:804][776]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003351s)
+[2018.01.12-22.01.12:805][776]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.01.12:805][776]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2018.01.12-22.01.12:805][776]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004398s)
+[2018.01.12-22.01.12:824][776]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.01.12:829][776]LogInit: FAudioDevice initialized.
+[2018.01.12-22.01.12:874][776]LogLoad: Game class is 'GameModeBase'
+[2018.01.12-22.01.12:878][776]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.01.12
+[2018.01.12-22.01.12:878][776]LogWorld: Bringing up level for play took: 0.001782
+[2018.01.12-22.01.12:936][776]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.12-22.01.12:938][776]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.208
+[2018.01.12-22.09.19:532][600]LogSlate: Took 0.000193 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.12-22.09.19:650][600]LogSavePackage: Save=79.12ms
+[2018.01.12-22.09.19:650][600]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/TestLevel_Auto19CD492494679911F82E4A7AB76FD9381.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/TestLevel_Auto1.umap'
+[2018.01.12-22.09.19:653][600]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/TestLevel_Auto1.umap
+[2018.01.12-22.09.19:660][600]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestLevel' took 0.109
+[2018.01.12-22.09.19:660][600]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.109
+[2018.01.12-22.32.53:833][951]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2018.01.12-22.32.58:106][393]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.01.12-22.33.17:867][244]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.12-22.33.17:914][245]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Octree
+[2018.01.12-22.33.17:914][245]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.12-22.33.17:914][245]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.01.12-22.33.17:914][245]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.12-22.33.17:914][245]LogTemp: BranchPath = WIN-RKF9UACI43K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = WIN-RKF9UACI43K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.12-22.33.17:930][246]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ryang\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.12-22.39.37:244][862]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.39.37:261][862]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.39.37:262][862]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:39:37 AM)
+[2018.01.12-22.39.37:262][862]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.39.37:265][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002917s)
+[2018.01.12-22.39.37:265][862]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.39.37:265][862]LogPlayLevel: PIE: World Init took: (0.000760s)
+[2018.01.12-22.39.37:266][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003920s)
+[2018.01.12-22.39.37:283][862]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.39.37:288][862]LogInit: FAudioDevice initialized.
+[2018.01.12-22.39.37:318][862]LogLoad: Game class is 'GameModeBase'
+[2018.01.12-22.39.37:321][862]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.39.37
+[2018.01.12-22.39.37:322][862]LogWorld: Bringing up level for play took: 0.001987
+[2018.01.12-22.39.37:323][862]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.177
+[2018.01.12-22.39.44:246][591]LogSlate: Took 0.004642 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.12-22.40.21:403][651]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.12-22.40.23:991][651]LogMaterial: Missing cached shader map for material M_ImposterTest_01, compiling. 
+[2018.01.12-22.40.24:048][651]LogMaterial: Missing cached shader map for material M_RenderMotionVectors, compiling. 
+[2018.01.12-22.40.24:065][651]LogMaterial: Missing cached shader map for material M_RenderMotionVectors, compiling. 
+[2018.01.12-22.40.24:081][651]LogMaterial: Missing cached shader map for material M_RenderMotionVectors, compiling. 
+[2018.01.12-22.40.24:100][651]LogMaterial: Missing cached shader map for material M_RenderMotionVectors, compiling. 
+[2018.01.12-22.40.24:834][651]LogMaterial: Missing cached shader map for material M_FlipbookPreview_01, compiling. 
+[2018.01.12-22.40.24:846][651]LogMaterial: Missing cached shader map for material M_FlipbookPreview_01, compiling. 
+[2018.01.12-22.40.24:969][651]LogMaterial: Missing cached shader map for material M_ImposterTest_01, compiling. 
+[2018.01.12-22.40.54:252][894]LogSavePackage: Save=68.07ms
+[2018.01.12-22.40.54:253][894]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/TestLevel_Auto25C114359453742BE7E88B89D76769319.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/TestLevel_Auto2.umap'
+[2018.01.12-22.40.54:254][894]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/TestLevel_Auto2.umap
+[2018.01.12-22.40.54:257][894]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestLevel' took 0.144
+[2018.01.12-22.40.54:257][894]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.144
+[2018.01.12-22.41.00:122][987]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.12-22.41.08:544][922]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.12-22.41.08:640][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-22.41.08:640][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-22.41.08:640][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-22.41.08:640][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.01.12-22.41.08:641][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.01.12-22.41.08:641][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.01.12-22.41.08:641][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.01.12-22.41.08:641][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.01.12-22.41.08:645][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2583.06] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.41.08:645][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2583.06] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.41.08:645][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2583.06] Compile of ThirdPersonCharacter successful, but with 10 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.41.08:650][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-22.41.08:650][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-22.41.08:650][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-22.41.08:651][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2018.01.12-22.41.08:651][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2018.01.12-22.41.08:651][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2018.01.12-22.41.08:651][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2018.01.12-22.41.08:651][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2018.01.12-22.41.08:655][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2583.07] Compile of ThirdPersonCharacter successful, but with 8 Warning(s) [in 8 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.41.08:655][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2583.07] Compile of ThirdPersonCharacter successful, but with 9 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.41.08:655][922]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [2583.07] Compile of ThirdPersonCharacter successful, but with 10 Warning(s) [in 0 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.41.10:796][158]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.41.10:814][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.41.10:814][158]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:41:10 AM)
+[2018.01.12-22.41.10:814][158]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.41.10:817][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002706s)
+[2018.01.12-22.41.10:818][158]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.41.10:818][158]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2018.01.12-22.41.10:818][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003566s)
+[2018.01.12-22.41.10:845][158]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.41.10:851][158]LogInit: FAudioDevice initialized.
+[2018.01.12-22.41.10:881][158]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.41.10:884][158]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.41.10
+[2018.01.12-22.41.10:884][158]LogWorld: Bringing up level for play took: 0.001918
+[2018.01.12-22.41.10:889][158]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.258
+[2018.01.12-22.41.58:517][344]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.41.58:535][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.41.58:536][344]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:41:58 AM)
+[2018.01.12-22.41.58:536][344]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.41.58:540][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004322s)
+[2018.01.12-22.41.58:541][344]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.41.58:541][344]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2018.01.12-22.41.58:541][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005411s)
+[2018.01.12-22.41.58:562][344]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.41.58:566][344]LogInit: FAudioDevice initialized.
+[2018.01.12-22.41.58:596][344]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.41.58:600][344]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.41.58
+[2018.01.12-22.41.58:600][344]LogWorld: Bringing up level for play took: 0.002287
+[2018.01.12-22.41.58:602][344]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.544
+[2018.01.12-22.42.24:360][434]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.12-22.42.24:406][435]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Octree
+[2018.01.12-22.42.24:406][435]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.12-22.42.24:406][435]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.01.12-22.42.24:406][435]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.12-22.42.24:406][435]LogTemp: BranchPath = WIN-RKF9UACI43K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = WIN-RKF9UACI43K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.12-22.42.24:424][436]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ryang\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.12-22.42.40:613][879]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.01.12-22.42.45:777][373]LogUObjectGlobals:Warning: Failed to find object 'Class None.None'
+[2018.01.12-22.42.46:959][507]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.42.46:976][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.42.46:976][507]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:42:46 AM)
+[2018.01.12-22.42.46:976][507]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.42.46:979][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002783s)
+[2018.01.12-22.42.46:979][507]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.42.46:980][507]LogPlayLevel: PIE: World Init took: (0.000737s)
+[2018.01.12-22.42.46:980][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003744s)
+[2018.01.12-22.42.46:997][507]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.42.47:001][507]LogInit: FAudioDevice initialized.
+[2018.01.12-22.42.47:030][507]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.42.47:033][507]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.42.47
+[2018.01.12-22.42.47:033][507]LogWorld: Bringing up level for play took: 0.001752
+[2018.01.12-22.42.47:035][507]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.111
+[2018.01.12-22.43.04:797][826]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.12-22.43.04:841][827]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Octree
+[2018.01.12-22.43.04:841][827]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.12-22.43.04:841][827]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2018.01.12-22.43.04:841][827]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.12-22.43.04:864][828]LogTemp: BranchPath = WIN-RKF9UACI43K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = WIN-RKF9UACI43K/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2018.01.12-22.43.04:864][828]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\ryang\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.12-22.46.24:666][817]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.46.24:684][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.46.24:684][817]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:46:24 AM)
+[2018.01.12-22.46.24:684][817]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.46.24:687][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002712s)
+[2018.01.12-22.46.24:688][817]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.46.24:688][817]LogPlayLevel: PIE: World Init took: (0.000652s)
+[2018.01.12-22.46.24:688][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003595s)
+[2018.01.12-22.46.24:708][817]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.46.24:712][817]LogInit: FAudioDevice initialized.
+[2018.01.12-22.46.24:744][817]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.46.24:747][817]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.46.24
+[2018.01.12-22.46.24:747][817]LogWorld: Bringing up level for play took: 0.001725
+[2018.01.12-22.46.24:749][817]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.397
+[2018.01.12-22.46.55:406][979]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.46.55:422][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.46.55:423][979]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:46:55 AM)
+[2018.01.12-22.46.55:423][979]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.46.55:425][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002629s)
+[2018.01.12-22.46.55:426][979]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.46.55:426][979]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2018.01.12-22.46.55:426][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003436s)
+[2018.01.12-22.46.55:445][979]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.46.55:450][979]LogInit: FAudioDevice initialized.
+[2018.01.12-22.46.55:480][979]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.46.55:483][979]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.46.55
+[2018.01.12-22.46.55:483][979]LogWorld: Bringing up level for play took: 0.001655
+[2018.01.12-22.46.55:486][979]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.339
+[2018.01.12-22.47.02:095][519]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.47.02:117][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.47.02:117][519]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:47:02 AM)
+[2018.01.12-22.47.02:117][519]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.47.02:120][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003375s)
+[2018.01.12-22.47.02:121][519]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.47.02:121][519]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2018.01.12-22.47.02:121][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004393s)
+[2018.01.12-22.47.02:141][519]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.47.02:145][519]LogInit: FAudioDevice initialized.
+[2018.01.12-22.47.02:182][519]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.47.02:186][519]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.47.02
+[2018.01.12-22.47.02:186][519]LogWorld: Bringing up level for play took: 0.002817
+[2018.01.12-22.47.02:189][519]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 1.042
+[2018.01.12-22.47.12:149][610]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.47.22:310][675]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2018.01.12-22.47.22:993][675]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.12-22.47.23:089][675]LogSlate: Took 0.004228 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.12-22.48.19:543][914]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.BP_Cube_C_0.CubeInstance) Not currently registered. Aborting.
+[2018.01.12-22.48.24:350][130]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-22.48.44:519][202]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-22.49.00:882][142]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.BP_Cube_C_0.CubeInstance) Not currently registered. Aborting.
+[2018.01.12-22.49.30:852][701]BlueprintLog: New page: Compile BP_LIbrary
+[2018.01.12-22.49.37:437][118]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.01.12-22.50.40:846][236]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.50.44:639][462]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.50.44:663][462]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.12-22.50.44:663][462]LogPlayLevel: [PlayLevel] Compiling BP_Cube before play...
+[2018.01.12-22.50.45:221][462]LogPlayLevel: PlayLevel: Blueprint regeneration took 558 ms (1 blueprints)
+[2018.01.12-22.50.45:221][462]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:50:45 AM)
+[2018.01.12-22.50.45:222][462]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.50.45:224][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002692s)
+[2018.01.12-22.50.45:225][462]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.50.45:225][462]LogPlayLevel: PIE: World Init took: (0.000612s)
+[2018.01.12-22.50.45:225][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003493s)
+[2018.01.12-22.50.45:250][462]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.50.45:255][462]LogInit: FAudioDevice initialized.
+[2018.01.12-22.50.45:284][462]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.50.45:287][462]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.50.45
+[2018.01.12-22.50.45:287][462]LogWorld: Bringing up level for play took: 0.001583
+[2018.01.12-22.50.45:289][462]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.143
+[2018.01.12-22.51.02:866][734]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.51.27:580][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.12-22.51.27:676][297]LogSavePackage: Save=74.13ms
+[2018.01.12-22.51.27:676][297]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/TestLevel16EDB7A34D550436AC57BE93879F478D.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap'
+[2018.01.12-22.51.27:683][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap
+[2018.01.12-22.51.27:720][297]LogFileHelpers: Saving map 'TestLevel' took 0.215
+[2018.01.12-22.51.27:739][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Cube" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset" SILENT=true
+[2018.01.12-22.51.27:811][297]LogSavePackage: Save=63.71ms
+[2018.01.12-22.51.27:811][297]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/BP_Cube0CEE85FF4409ECFCF6C01A8629821808.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset'
+[2018.01.12-22.51.27:814][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset
+[2018.01.12-22.51.27:819][297]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_LIbrary" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_LIbrary.uasset" SILENT=true
+[2018.01.12-22.51.27:881][297]LogSavePackage: Save=54.29ms
+[2018.01.12-22.51.27:882][297]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/BP_LIbrary2B8C624B484166165E8ABEB224FD19C5.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_LIbrary.uasset'
+[2018.01.12-22.51.27:885][297]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_LIbrary.uasset
+[2018.01.12-22.51.57:331][108]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.BP_Cube_C_0.CubeInstance) Not currently registered. Aborting.
+[2018.01.12-22.51.59:249][185]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-22.52.00:872][237]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.52.00:888][237]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.52.00:889][237]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:52:00 AM)
+[2018.01.12-22.52.00:889][237]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.52.00:893][237]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004684s)
+[2018.01.12-22.52.00:894][237]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.52.00:894][237]LogPlayLevel: PIE: World Init took: (0.000796s)
+[2018.01.12-22.52.00:895][237]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005777s)
+[2018.01.12-22.52.00:920][237]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.52.00:926][237]LogInit: FAudioDevice initialized.
+[2018.01.12-22.52.00:959][237]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.52.00:962][237]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.52.00
+[2018.01.12-22.52.00:962][237]LogWorld: Bringing up level for play took: 0.001750
+[2018.01.12-22.52.00:964][237]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.182
+[2018.01.12-22.52.48:913][944]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-22.52.48:934][944]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-22.52.48:934][944]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-22.52.48:935][944]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-22.52.49:078][944]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-22.52.49:078][944]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-22.52.49:078][944]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-22.52.49:078][944]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [3283.50] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 164 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-22.53.41:476][134]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.53.41:492][134]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.53.41:493][134]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:53:41 AM)
+[2018.01.12-22.53.41:493][134]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.53.41:496][134]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002900s)
+[2018.01.12-22.53.41:496][134]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.53.41:496][134]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.01.12-22.53.41:496][134]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003749s)
+[2018.01.12-22.53.41:523][134]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.53.41:528][134]LogInit: FAudioDevice initialized.
+[2018.01.12-22.53.41:560][134]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.53.41:563][134]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.53.41
+[2018.01.12-22.53.41:563][134]LogWorld: Bringing up level for play took: 0.001956
+[2018.01.12-22.53.41:566][134]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.42
+[2018.01.12-22.53.54:313][835]LogRenderer: Reallocating scene render targets to support 1912x1284 NumSamples 1 (Frame:1).
+[2018.01.12-22.54.15:905][455]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.54.15:922][455]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.54.15:923][455]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:54:15 AM)
+[2018.01.12-22.54.15:923][455]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.54.15:926][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003186s)
+[2018.01.12-22.54.15:926][455]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.54.15:927][455]LogPlayLevel: PIE: World Init took: (0.000723s)
+[2018.01.12-22.54.15:927][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004142s)
+[2018.01.12-22.54.15:953][455]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.54.15:957][455]LogInit: FAudioDevice initialized.
+[2018.01.12-22.54.15:993][455]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.54.15:995][455]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.54.15
+[2018.01.12-22.54.15:996][455]LogWorld: Bringing up level for play took: 0.001748
+[2018.01.12-22.54.15:998][455]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.852
+[2018.01.12-22.54.52:410][736]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_3:PersistentLevel.BP_Cube_C_0.CubeInstance) Not currently registered. Aborting.
+[2018.01.12-22.54.54:579][828]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-22.54.55:906][866]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.54.59:114][999]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.54.59:131][999]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.54.59:132][999]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:54:59 AM)
+[2018.01.12-22.54.59:132][999]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.54.59:136][999]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003745s)
+[2018.01.12-22.54.59:136][999]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.54.59:136][999]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2018.01.12-22.54.59:137][999]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004805s)
+[2018.01.12-22.54.59:161][999]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.54.59:166][999]LogInit: FAudioDevice initialized.
+[2018.01.12-22.54.59:199][999]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.54.59:202][999]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.54.59
+[2018.01.12-22.54.59:203][999]LogWorld: Bringing up level for play took: 0.001822
+[2018.01.12-22.54.59:205][999]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.058
+[2018.01.12-22.58.54:418][134]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-22.59.42:151][892]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-22.59.44:406][978]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-22.59.44:422][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-22.59.44:422][978]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 6:59:44 AM)
+[2018.01.12-22.59.44:422][978]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-22.59.44:426][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003684s)
+[2018.01.12-22.59.44:427][978]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-22.59.44:427][978]LogPlayLevel: PIE: World Init took: (0.000863s)
+[2018.01.12-22.59.44:427][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004807s)
+[2018.01.12-22.59.44:453][978]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-22.59.44:458][978]LogInit: FAudioDevice initialized.
+[2018.01.12-22.59.44:493][978]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-22.59.44:496][978]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-14.59.44
+[2018.01.12-22.59.44:496][978]LogWorld: Bringing up level for play took: 0.001688
+[2018.01.12-22.59.44:498][978]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.648
+[2018.01.12-22.59.57:669][782]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.00.09:613][469]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2018.01.12-23.00.15:887][805]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2018.01.12-23.00.19:336][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.01.32:171][285]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.01.34:797][399]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.01.34:814][399]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.01.34:815][399]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:01:34 AM)
+[2018.01.12-23.01.34:815][399]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.01.34:818][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003261s)
+[2018.01.12-23.01.34:818][399]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.01.34:820][399]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2018.01.12-23.01.34:820][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004153s)
+[2018.01.12-23.01.34:844][399]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.01.34:849][399]LogInit: FAudioDevice initialized.
+[2018.01.12-23.01.34:884][399]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.01.34:887][399]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.01.34
+[2018.01.12-23.01.34:887][399]LogWorld: Bringing up level for play took: 0.001928
+[2018.01.12-23.01.34:890][399]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.256
+[2018.01.12-23.02.04:783][508]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/CubeUV" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/CubeUV.uasset" SILENT=true
+[2018.01.12-23.02.04:803][508]LogSavePackage: Save=13.02ms
+[2018.01.12-23.02.04:803][508]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/CubeUV870F377049AFEAC821F2A581D6062329.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/CubeUV.uasset'
+[2018.01.12-23.02.04:807][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/CubeUV.uasset
+[2018.01.12-23.02.05:908][586]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.02.05:925][586]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.02.05:926][586]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:02:05 AM)
+[2018.01.12-23.02.05:926][586]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.02.05:929][586]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003304s)
+[2018.01.12-23.02.05:930][586]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.02.05:930][586]LogPlayLevel: PIE: World Init took: (0.000813s)
+[2018.01.12-23.02.05:930][586]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004390s)
+[2018.01.12-23.02.05:957][586]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.02.05:962][586]LogInit: FAudioDevice initialized.
+[2018.01.12-23.02.05:994][586]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.02.05:997][586]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.02.05
+[2018.01.12-23.02.05:997][586]LogWorld: Bringing up level for play took: 0.001704
+[2018.01.12-23.02.06:000][586]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.853
+[2018.01.12-23.03.09:984][465]LogSavePackage: Save=82.58ms
+[2018.01.12-23.03.09:984][465]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/TestLevel_Auto37148386340A231D2F5364AA91918AB95.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/TestLevel_Auto3.umap'
+[2018.01.12-23.03.09:988][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/TestLevel_Auto3.umap
+[2018.01.12-23.03.09:990][465]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestLevel' took 0.118
+[2018.01.12-23.03.09:990][465]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.118
+[2018.01.12-23.03.09:992][465]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Cube] ([1] browsable assets)...
+[2018.01.12-23.03.10:007][465]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Cube.BP_Cube]
+[2018.01.12-23.03.10:007][465]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Cube]
+[2018.01.12-23.03.10:007][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Cube" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/BP_Cube_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.01.12-23.03.10:081][465]LogSavePackage: Save=66.54ms
+[2018.01.12-23.03.10:081][465]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/BP_Cube_Auto31748A9DB453B20C16A277B84C2A2555C.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/BP_Cube_Auto3.uasset'
+[2018.01.12-23.03.10:083][465]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/Autosaves/Game/BP_Cube_Auto3.uasset
+[2018.01.12-23.03.10:083][465]LogFileHelpers: Auto-saving content packages took 0.092
+[2018.01.12-23.04.43:168][662]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.04.44:900][733]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.04.44:917][733]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.04.44:917][733]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:04:44 AM)
+[2018.01.12-23.04.44:917][733]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.04.44:921][733]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003417s)
+[2018.01.12-23.04.44:921][733]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.04.44:921][733]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2018.01.12-23.04.44:921][733]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004322s)
+[2018.01.12-23.04.44:947][733]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.04.44:952][733]LogInit: FAudioDevice initialized.
+[2018.01.12-23.04.44:984][733]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.04.44:987][733]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.04.44
+[2018.01.12-23.04.44:987][733]LogWorld: Bringing up level for play took: 0.001668
+[2018.01.12-23.04.44:989][733]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.157
+[2018.01.12-23.04.49:937][ 30]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube2)
+[2018.01.12-23.04.52:451][162]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.04.52:467][162]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.04.52:468][162]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:04:52 AM)
+[2018.01.12-23.04.52:468][162]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.04.52:471][162]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003436s)
+[2018.01.12-23.04.52:472][162]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.04.52:472][162]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2018.01.12-23.04.52:472][162]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004537s)
+[2018.01.12-23.04.52:498][162]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.04.52:503][162]LogInit: FAudioDevice initialized.
+[2018.01.12-23.04.52:536][162]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.04.52:539][162]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.04.52
+[2018.01.12-23.04.52:540][162]LogWorld: Bringing up level for play took: 0.001863
+[2018.01.12-23.04.52:543][162]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.604
+[2018.01.12-23.05.07:786][ 80]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.05.09:843][161]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.05.09:860][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.05.09:860][161]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:05:09 AM)
+[2018.01.12-23.05.09:860][161]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.05.09:864][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003461s)
+[2018.01.12-23.05.09:864][161]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.05.09:865][161]LogPlayLevel: PIE: World Init took: (0.000680s)
+[2018.01.12-23.05.09:865][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004382s)
+[2018.01.12-23.05.09:888][161]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.05.09:892][161]LogInit: FAudioDevice initialized.
+[2018.01.12-23.05.09:924][161]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.05.09:928][161]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.05.09
+[2018.01.12-23.05.09:928][161]LogWorld: Bringing up level for play took: 0.001710
+[2018.01.12-23.05.09:930][161]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.784
+[2018.01.12-23.05.18:213][613]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.05.50:117][418]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.05.52:192][498]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.05.52:211][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.05.52:212][498]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:05:52 AM)
+[2018.01.12-23.05.52:212][498]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.05.52:216][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004462s)
+[2018.01.12-23.05.52:217][498]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.05.52:217][498]LogPlayLevel: PIE: World Init took: (0.000884s)
+[2018.01.12-23.05.52:217][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005665s)
+[2018.01.12-23.05.52:245][498]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.05.52:249][498]LogInit: FAudioDevice initialized.
+[2018.01.12-23.05.52:284][498]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.05.52:287][498]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.05.52
+[2018.01.12-23.05.52:287][498]LogWorld: Bringing up level for play took: 0.001800
+[2018.01.12-23.05.52:290][498]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.857
+[2018.01.12-23.06.05:892][256]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.06.06:923][276]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Cube" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset" SILENT=true
+[2018.01.12-23.06.06:993][276]LogSavePackage: Save=66.93ms
+[2018.01.12-23.06.06:993][276]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/BP_CubeE54767674884027296858A9C426465D9.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset'
+[2018.01.12-23.06.07:000][276]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset
+[2018.01.12-23.06.39:083][ 71]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.ThirdPersonCharacter_C_0.CollisionCylinder) Not currently registered. Aborting.
+[2018.01.12-23.06.39:083][ 71]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_7:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder) Not currently registered. Aborting.
+[2018.01.12-23.06.40:554][151]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.06.40:569][151]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-23.06.40:570][151]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-23.06.40:570][151]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-23.06.40:860][151]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-23.06.40:860][151]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-23.06.40:860][151]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-23.06.40:860][151]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4115.28] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 306 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-23.06.42:044][228]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.06.42:061][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.06.42:061][228]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:06:42 AM)
+[2018.01.12-23.06.42:061][228]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.06.42:064][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002790s)
+[2018.01.12-23.06.42:064][228]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.06.42:064][228]LogPlayLevel: PIE: World Init took: (0.000647s)
+[2018.01.12-23.06.42:064][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003651s)
+[2018.01.12-23.06.42:092][228]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.06.42:096][228]LogInit: FAudioDevice initialized.
+[2018.01.12-23.06.42:134][228]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.06.42:138][228]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.06.42
+[2018.01.12-23.06.42:138][228]LogWorld: Bringing up level for play took: 0.002341
+[2018.01.12-23.06.42:141][228]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.994
+[2018.01.12-23.06.53:296][925]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_6:PersistentLevel.ThirdPersonCharacter_C_8.CollisionCylinder) Not currently registered. Aborting.
+[2018.01.12-23.06.53:296][925]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_7:PersistentLevel.ThirdPersonCharacter_C_1.CollisionCylinder) Not currently registered. Aborting.
+[2018.01.12-23.06.57:755][178]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.06.57:771][178]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-23.06.57:771][178]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-23.06.57:771][178]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-23.06.58:068][178]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-23.06.58:068][178]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-23.06.58:068][178]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-23.06.58:068][178]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4132.49] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 312 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-23.07.13:682][269]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.07.13:698][269]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-23.07.13:698][269]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-23.07.13:698][269]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-23.07.13:804][269]BlueprintEditorCompileResults:Warning: Warning InputAction Event references unknown Action 'ResetVR' for  InputAction ResetVR
+[2018.01.12-23.07.13:804][269]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'LookUpRate' for  InputAxis LookUpRate
+[2018.01.12-23.07.13:804][269]BlueprintEditorCompileResults:Warning: Warning Input Axis Event references unknown Axis 'TurnRate' for  InputAxis TurnRate
+[2018.01.12-23.07.13:805][269]LogBlueprint:Warning: [Compiler ThirdPersonCharacter] Warning [4148.22] Compile of ThirdPersonCharacter successful, but with 3 Warning(s) [in 122 ms] (/Game/ThirdPersonBP/Blueprints/ThirdPersonCharacter.ThirdPersonCharacter)
+[2018.01.12-23.07.30:421][381]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.07.33:181][567]LogSavePackage: Save=52.10ms
+[2018.01.12-23.07.33:181][567]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/ThirdPersonCharacterF8EB8A3B44BB1B6C39135ABC9B21EEEB.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.12-23.07.33:185][567]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.12-23.07.33:879][616]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.07.33:895][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.07.33:896][616]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:07:33 AM)
+[2018.01.12-23.07.33:896][616]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.07.33:898][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002666s)
+[2018.01.12-23.07.33:899][616]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.07.33:899][616]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2018.01.12-23.07.33:899][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003487s)
+[2018.01.12-23.07.33:923][616]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.07.33:928][616]LogInit: FAudioDevice initialized.
+[2018.01.12-23.07.33:958][616]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.07.33:961][616]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.07.33
+[2018.01.12-23.07.33:961][616]LogWorld: Bringing up level for play took: 0.001665
+[2018.01.12-23.07.33:964][616]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.817
+[2018.01.12-23.08.15:691][142]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.08.15:708][142]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.01.12-23.08.15:708][142]LogPlayLevel: [PlayLevel] Compiling BP_Cube before play...
+[2018.01.12-23.08.16:319][142]LogPlayLevel: PlayLevel: Blueprint regeneration took 610 ms (1 blueprints)
+[2018.01.12-23.08.16:319][142]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:08:16 AM)
+[2018.01.12-23.08.16:319][142]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.08.16:322][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002828s)
+[2018.01.12-23.08.16:322][142]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.08.16:323][142]LogPlayLevel: PIE: World Init took: (0.000654s)
+[2018.01.12-23.08.16:323][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003720s)
+[2018.01.12-23.08.16:346][142]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.08.16:350][142]LogInit: FAudioDevice initialized.
+[2018.01.12-23.08.16:382][142]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.08.16:385][142]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.08.16
+[2018.01.12-23.08.16:385][142]LogWorld: Bringing up level for play took: 0.001752
+[2018.01.12-23.08.16:388][142]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 1.241
+[2018.01.12-23.08.28:571][831]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.08.32:399][  4]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.08.32:416][  4]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.08.32:416][  4]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:08:32 AM)
+[2018.01.12-23.08.32:416][  4]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.08.32:420][  4]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003830s)
+[2018.01.12-23.08.32:421][  4]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.08.32:421][  4]LogPlayLevel: PIE: World Init took: (0.000650s)
+[2018.01.12-23.08.32:421][  4]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004724s)
+[2018.01.12-23.08.32:444][  4]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.08.32:448][  4]LogInit: FAudioDevice initialized.
+[2018.01.12-23.08.32:478][  4]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.08.32:480][  4]PIE:Warning: Warning AttachTo: '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube_584.DefaultSceneRoot' is not static  (in blueprint "BP_Cube"), cannot attach '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube_584.CubeInstance' which is static to it. Aborting.
+[2018.01.12-23.08.32:480][  4]PIE:Warning: Warning AttachTo: '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube2.DefaultSceneRoot' is not static  (in blueprint "BP_Cube"), cannot attach '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube2.CubeInstance' which is static to it. Aborting.
+[2018.01.12-23.08.32:480][  4]PIE:Warning: Warning AttachTo: '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube3.DefaultSceneRoot' is not static  (in blueprint "BP_Cube"), cannot attach '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube3.CubeInstance' which is static to it. Aborting.
+[2018.01.12-23.08.32:480][  4]PIE:Warning: Warning AttachTo: '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube4.DefaultSceneRoot' is not static  (in blueprint "BP_Cube"), cannot attach '/Game/UEDPIE_0_TestLevel.TestLevel:PersistentLevel.BP_Cube4.CubeInstance' which is static to it. Aborting.
+[2018.01.12-23.08.32:481][  4]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.08.32
+[2018.01.12-23.08.32:481][  4]LogWorld: Bringing up level for play took: 0.001846
+[2018.01.12-23.08.32:483][  4]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.663
+[2018.01.12-23.08.40:567][434]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.09.35:067][785]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.09.36:750][847]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.09.36:767][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.09.36:767][847]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:09:36 AM)
+[2018.01.12-23.09.36:767][847]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.09.36:770][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002890s)
+[2018.01.12-23.09.36:771][847]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.09.36:771][847]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2018.01.12-23.09.36:771][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003781s)
+[2018.01.12-23.09.36:796][847]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.09.36:800][847]LogInit: FAudioDevice initialized.
+[2018.01.12-23.09.36:832][847]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.09.36:883][847]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.09.36
+[2018.01.12-23.09.36:883][847]LogWorld: Bringing up level for play took: 0.050138
+[2018.01.12-23.09.36:886][847]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.261
+[2018.01.12-23.09.44:237][293]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.09.44:256][293]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.09.44:256][293]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:09:44 AM)
+[2018.01.12-23.09.44:257][293]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.09.44:260][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003031s)
+[2018.01.12-23.09.44:260][293]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.09.44:260][293]LogPlayLevel: PIE: World Init took: (0.000641s)
+[2018.01.12-23.09.44:260][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003901s)
+[2018.01.12-23.09.44:289][293]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.09.44:294][293]LogInit: FAudioDevice initialized.
+[2018.01.12-23.09.44:329][293]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.09.44:377][293]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.09.44
+[2018.01.12-23.09.44:377][293]LogWorld: Bringing up level for play took: 0.046130
+[2018.01.12-23.09.44:379][293]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.767
+[2018.01.12-23.09.54:402][913]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.09.54:419][913]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.09.54:419][913]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:09:54 AM)
+[2018.01.12-23.09.54:419][913]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.09.54:423][913]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004000s)
+[2018.01.12-23.09.54:423][913]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.09.54:424][913]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2018.01.12-23.09.54:424][913]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004924s)
+[2018.01.12-23.09.54:449][913]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.09.54:453][913]LogInit: FAudioDevice initialized.
+[2018.01.12-23.09.54:490][913]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.09.54:534][913]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.09.54
+[2018.01.12-23.09.54:534][913]LogWorld: Bringing up level for play took: 0.042540
+[2018.01.12-23.09.54:537][913]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.61
+[2018.01.12-23.10.36:518][636]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.10.37:966][729]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.10.37:985][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.10.37:985][729]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:10:37 AM)
+[2018.01.12-23.10.37:985][729]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.10.37:988][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002802s)
+[2018.01.12-23.10.37:989][729]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.10.37:989][729]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.01.12-23.10.37:989][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003668s)
+[2018.01.12-23.10.38:013][729]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.10.38:017][729]LogInit: FAudioDevice initialized.
+[2018.01.12-23.10.38:046][729]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.10.38:091][729]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.10.38
+[2018.01.12-23.10.38:092][729]LogWorld: Bringing up level for play took: 0.044509
+[2018.01.12-23.10.38:094][729]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.948
+[2018.01.12-23.10.57:413][277]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.10.58:330][325]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.10.58:349][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.10.58:349][325]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:10:58 AM)
+[2018.01.12-23.10.58:349][325]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.10.58:352][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002930s)
+[2018.01.12-23.10.58:353][325]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.10.58:353][325]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.01.12-23.10.58:353][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003827s)
+[2018.01.12-23.10.58:379][325]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.10.58:384][325]LogInit: FAudioDevice initialized.
+[2018.01.12-23.10.58:414][325]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.10.58:459][325]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.10.58
+[2018.01.12-23.10.58:460][325]LogWorld: Bringing up level for play took: 0.043799
+[2018.01.12-23.10.58:462][325]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.684
+[2018.01.12-23.11.16:271][778]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.11.17:229][833]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.11.17:247][833]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.11.17:247][833]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:11:17 AM)
+[2018.01.12-23.11.17:247][833]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.11.17:250][833]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002791s)
+[2018.01.12-23.11.17:251][833]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.11.17:251][833]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2018.01.12-23.11.17:251][833]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003644s)
+[2018.01.12-23.11.17:276][833]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.11.17:281][833]LogInit: FAudioDevice initialized.
+[2018.01.12-23.11.17:312][833]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.11.17:356][833]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.11.17
+[2018.01.12-23.11.17:356][833]LogWorld: Bringing up level for play took: 0.042587
+[2018.01.12-23.11.17:359][833]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.213
+[2018.01.12-23.11.34:858][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.12-23.11.34:953][466]LogSavePackage: Save=71.82ms
+[2018.01.12-23.11.34:953][466]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/TestLevelFD42EFC74F9EF4D0156C7EACDAA1DDBB.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap'
+[2018.01.12-23.11.34:956][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap
+[2018.01.12-23.11.34:979][466]LogFileHelpers: Saving map 'TestLevel' took 0.198
+[2018.01.12-23.11.34:993][466]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Cube" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset" SILENT=true
+[2018.01.12-23.11.35:065][466]LogSavePackage: Save=62.59ms
+[2018.01.12-23.11.35:065][466]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/BP_Cube04715DB94E2B981ED3BAE3B5FE19957A.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset'
+[2018.01.12-23.11.35:068][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/BP_Cube.uasset
+[2018.01.12-23.11.35:142][466]LogSavePackage: Save=56.63ms
+[2018.01.12-23.11.35:142][466]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/ThirdPersonCharacter57C426D94574777311FB639641F1C828.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.12-23.11.35:145][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset

@@ -846,3 +846,866 @@ LogInit: Object subsystem initialized
 [2018.01.12-23.11.35:142][466]LogSavePackage: Save=56.63ms
 [2018.01.12-23.11.35:142][466]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/ThirdPersonCharacter57C426D94574777311FB639641F1C828.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
 [2018.01.12-23.11.35:145][466]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2018.01.12-23.42.51:017][361]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.42.51:036][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.42.51:037][361]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:42:51 AM)
+[2018.01.12-23.42.51:037][361]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.42.51:040][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003370s)
+[2018.01.12-23.42.51:041][361]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.42.51:041][361]LogPlayLevel: PIE: World Init took: (0.000786s)
+[2018.01.12-23.42.51:041][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004402s)
+[2018.01.12-23.42.51:069][361]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.42.51:074][361]LogInit: FAudioDevice initialized.
+[2018.01.12-23.42.51:105][361]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.42.51:149][361]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.42.51
+[2018.01.12-23.42.51:149][361]LogWorld: Bringing up level for play took: 0.043289
+[2018.01.12-23.42.51:153][361]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.007
+[2018.01.12-23.42.59:631][ 29]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.43.12:945][ 22]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.43.19:328][461]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.43.24:811][862]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.43.42:137][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.43.44:842][271]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.43.47:467][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.43.48:440][504]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.43.49:198][563]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.43.51:541][727]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.01.12-23.43.52:708][804]LogEditorViewport: Clicking Background
+[2018.01.12-23.43.53:365][865]LogEditorViewport: Clicking Background
+[2018.01.12-23.43.53:971][924]LogEditorViewport: Clicking Background
+[2018.01.12-23.44.49:997][ 48]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.45.08:446][436]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.45.12:871][708]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.45.12:894][708]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.45.12:894][708]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:45:12 AM)
+[2018.01.12-23.45.12:894][708]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.45.12:897][708]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003158s)
+[2018.01.12-23.45.12:898][708]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.45.12:898][708]LogPlayLevel: PIE: World Init took: (0.000746s)
+[2018.01.12-23.45.12:898][708]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004257s)
+[2018.01.12-23.45.12:925][708]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.45.12:929][708]LogInit: FAudioDevice initialized.
+[2018.01.12-23.45.12:962][708]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.45.13:006][708]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.45.13
+[2018.01.12-23.45.13:006][708]LogWorld: Bringing up level for play took: 0.042549
+[2018.01.12-23.45.13:009][708]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.138
+[2018.01.12-23.45.22:429][575]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.45.57:723][ 44]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.46.00:478][217]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.46.00:495][217]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.46.00:495][217]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:46:00 AM)
+[2018.01.12-23.46.00:495][217]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.46.00:498][217]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002841s)
+[2018.01.12-23.46.00:498][217]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.46.00:498][217]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2018.01.12-23.46.00:499][217]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003746s)
+[2018.01.12-23.46.00:524][217]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.46.00:529][217]LogInit: FAudioDevice initialized.
+[2018.01.12-23.46.00:559][217]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.46.00:607][217]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.46.00
+[2018.01.12-23.46.00:607][217]LogWorld: Bringing up level for play took: 0.046447
+[2018.01.12-23.46.00:610][217]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.536
+[2018.01.12-23.46.08:945][868]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2018.01.12-23.46.15:701][408]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.46.23:485][963]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.46.23:503][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.46.23:503][963]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:46:23 AM)
+[2018.01.12-23.46.23:503][963]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.46.23:507][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003311s)
+[2018.01.12-23.46.23:507][963]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.46.23:507][963]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2018.01.12-23.46.23:507][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004166s)
+[2018.01.12-23.46.23:531][963]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.46.23:536][963]LogInit: FAudioDevice initialized.
+[2018.01.12-23.46.23:570][963]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.46.23:655][963]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.46.23
+[2018.01.12-23.46.23:655][963]LogWorld: Bringing up level for play took: 0.083932
+[2018.01.12-23.46.23:658][963]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.512
+[2018.01.12-23.46.32:958][792]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube4)
+[2018.01.12-23.46.45:440][738]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2018.01.12-23.46.47:602][909]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2018.01.12-23.46.58:089][709]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.47.03:542][ 48]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.47.03:561][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.47.03:561][ 48]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:47:03 AM)
+[2018.01.12-23.47.03:562][ 48]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.47.03:565][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003211s)
+[2018.01.12-23.47.03:565][ 48]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.47.03:565][ 48]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.01.12-23.47.03:566][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004082s)
+[2018.01.12-23.47.03:590][ 48]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.47.03:594][ 48]LogInit: FAudioDevice initialized.
+[2018.01.12-23.47.03:625][ 48]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.47.03:711][ 48]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.47.03
+[2018.01.12-23.47.03:711][ 48]LogWorld: Bringing up level for play took: 0.084797
+[2018.01.12-23.47.03:714][ 48]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.568
+[2018.01.12-23.47.20:488][449]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2018.01.12-23.47.24:580][746]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.47.30:741][159]BlueprintLog: New page: Compile BP_Cube
+[2018.01.12-23.47.33:431][240]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.47.33:448][240]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.47.33:448][240]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:47:33 AM)
+[2018.01.12-23.47.33:448][240]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.47.33:451][240]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003033s)
+[2018.01.12-23.47.33:451][240]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.47.33:452][240]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.01.12-23.47.33:452][240]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003878s)
+[2018.01.12-23.47.33:476][240]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.47.33:481][240]LogInit: FAudioDevice initialized.
+[2018.01.12-23.47.33:510][240]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.47.33:589][240]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.47.33
+[2018.01.12-23.47.33:589][240]LogWorld: Bringing up level for play took: 0.078055
+[2018.01.12-23.47.33:592][240]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.446
+[2018.01.12-23.47.55:066][495]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.01.12-23.48.03:814][978]LogEditorViewport: Clicking on Actor (LMB): BP_Cube_C (BP_Cube3)
+[2018.01.12-23.48.10:440][294]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.48.10:459][294]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.48.10:460][294]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:48:10 AM)
+[2018.01.12-23.48.10:460][294]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.48.10:464][294]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003831s)
+[2018.01.12-23.48.10:464][294]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.48.10:464][294]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.01.12-23.48.10:465][294]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004797s)
+[2018.01.12-23.48.10:489][294]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.48.10:493][294]LogInit: FAudioDevice initialized.
+[2018.01.12-23.48.10:527][294]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.48.10:618][294]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.48.10
+[2018.01.12-23.48.10:619][294]LogWorld: Bringing up level for play took: 0.089646
+[2018.01.12-23.48.10:622][294]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.524
+[2018.01.12-23.48.30:669][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube3)
+[2018.01.12-23.48.34:551][692]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.48.34:656][692]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.48.34:705][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.12-23.48.34:709][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSubtract_2, compiling. 
+[2018.01.12-23.48.34:714][692]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSubtract_0, compiling. 
+[2018.01.12-23.48.36:435][749]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.48.36:435][749]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.48.36:435][749]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.48.36:435][749]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.48.59:092][160]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.49.00:570][224]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.49.00:570][224]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.49.00:570][224]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.49.00:570][224]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.49.01:281][269]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.49.01:912][269]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.49.02:024][269]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.49.02:089][269]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.49.02:165][269]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.49.02:908][269]TextureStreamingBuild:Display: Compiling optional shaders took 0.751 seconds.
+[2018.01.12-23.49.05:212][378]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.49.05:212][378]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.49.05:212][378]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.49.05:212][378]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.49.12:212][808]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.49.12:229][808]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.49.12:229][808]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:49:12 AM)
+[2018.01.12-23.49.12:229][808]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.49.12:233][808]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003067s)
+[2018.01.12-23.49.12:233][808]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.49.12:233][808]LogPlayLevel: PIE: World Init took: (0.000635s)
+[2018.01.12-23.49.12:233][808]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003910s)
+[2018.01.12-23.49.12:260][808]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.49.12:264][808]LogInit: FAudioDevice initialized.
+[2018.01.12-23.49.12:295][808]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.49.12:381][808]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.49.12
+[2018.01.12-23.49.12:382][808]LogWorld: Bringing up level for play took: 0.085485
+[2018.01.12-23.49.12:385][808]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.761
+[2018.01.12-23.49.42:998][672]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2018.01.12-23.49.45:785][839]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.49.45:802][839]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.49.45:802][839]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:49:45 AM)
+[2018.01.12-23.49.45:802][839]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.49.45:806][839]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003367s)
+[2018.01.12-23.49.45:806][839]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.49.45:806][839]LogPlayLevel: PIE: World Init took: (0.000687s)
+[2018.01.12-23.49.45:806][839]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004295s)
+[2018.01.12-23.49.45:832][839]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.49.45:836][839]LogInit: FAudioDevice initialized.
+[2018.01.12-23.49.45:869][839]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.49.45:940][839]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.49.45
+[2018.01.12-23.49.45:941][839]LogWorld: Bringing up level for play took: 0.069854
+[2018.01.12-23.49.45:943][839]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.797
+[2018.01.12-23.50.29:526][785]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.50.30:867][845]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.50.30:886][845]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.50.30:886][845]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:50:30 AM)
+[2018.01.12-23.50.30:886][845]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.50.30:890][845]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003349s)
+[2018.01.12-23.50.30:890][845]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.50.30:891][845]LogPlayLevel: PIE: World Init took: (0.000862s)
+[2018.01.12-23.50.30:891][845]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004461s)
+[2018.01.12-23.50.30:919][845]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.50.30:923][845]LogInit: FAudioDevice initialized.
+[2018.01.12-23.50.30:953][845]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.50.31:029][845]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.50.31
+[2018.01.12-23.50.31:029][845]LogWorld: Bringing up level for play took: 0.074807
+[2018.01.12-23.50.31:032][845]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.114
+[2018.01.12-23.50.57:928][513]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.01.12-23.50.59:097][571]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.50.59:116][571]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.50.59:116][571]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:50:59 AM)
+[2018.01.12-23.50.59:117][571]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.50.59:120][571]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003110s)
+[2018.01.12-23.50.59:120][571]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.50.59:120][571]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.01.12-23.50.59:121][571]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004110s)
+[2018.01.12-23.50.59:144][571]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.50.59:148][571]LogInit: FAudioDevice initialized.
+[2018.01.12-23.50.59:180][571]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.50.59:252][571]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.50.59
+[2018.01.12-23.50.59:252][571]LogWorld: Bringing up level for play took: 0.070638
+[2018.01.12-23.50.59:255][571]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.109
+[2018.01.12-23.52.28:735][463]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.52.30:092][515]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.52.30:092][515]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.52.30:093][515]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.52.30:093][515]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.52.38:140][  4]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.52.39:226][ 44]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.52.39:226][ 44]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.52.39:226][ 44]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.52.39:226][ 44]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.52.49:698][638]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.52.49:721][638]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.52.50:988][679]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.52.50:988][679]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.52.50:988][679]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.52.50:988][679]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.52.51:675][721]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.52.52:748][758]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.52.52:748][758]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.52.52:748][758]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.52.52:748][758]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.03:435][381]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.03:457][381]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.04:476][418]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.04:476][418]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.04:476][418]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.04:476][418]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.06:664][541]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.07:733][577]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.07:733][577]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.07:733][577]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.07:733][577]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.07:952][590]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.08:968][628]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.08:968][628]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.08:968][628]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.08:968][628]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.09:359][651]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.10:426][688]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.10:426][688]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.10:426][688]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.10:426][688]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.19:373][216]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.19:395][216]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.20:465][256]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.20:465][256]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.20:465][256]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.20:465][256]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.22:996][407]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.24:027][446]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.24:027][446]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.24:027][446]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.24:027][446]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.26:308][573]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.26:331][573]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.27:340][608]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.27:340][608]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.27:340][608]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.27:340][608]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.34:228][992]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.34:250][992]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.35:296][ 29]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.35:296][ 29]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.35:296][ 29]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.35:296][ 29]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.37:162][136]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.37:191][136]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.12-23.53.38:260][171]MaterialEditorStats: Info Base pass shader: 90 instructions
+[2018.01.12-23.53.38:260][171]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.38:260][171]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.38:260][171]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.38:731][198]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.39:793][235]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.01.12-23.53.39:793][235]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.39:793][235]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.39:793][235]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.39:995][246]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.41:110][282]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.01.12-23.53.41:110][282]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.41:111][282]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.41:111][282]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.42:088][337]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.43:227][375]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.01.12-23.53.43:227][375]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.43:227][375]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.43:227][375]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.43:707][403]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.44:723][441]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.01.12-23.53.44:723][441]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.44:723][441]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.44:723][441]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.46:132][517]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.47:208][558]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.01.12-23.53.47:208][558]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.47:208][558]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.47:208][558]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.48:040][603]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.53.48:654][603]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.48:767][603]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.48:825][603]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.48:903][603]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.53.49:557][603]TextureStreamingBuild:Display: Compiling optional shaders took 0.662 seconds.
+[2018.01.12-23.53.51:768][694]MaterialEditorStats: Info Base pass shader: 96 instructions
+[2018.01.12-23.53.51:768][694]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.53.51:768][694]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.53.51:769][694]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.53:438][793]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.53.53:464][793]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2018.01.12-23.53.54:517][827]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2018.01.12-23.53.54:517][827]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.53.54:517][827]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.53.54:517][827]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.53.54:941][851]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.53.54:966][851]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.53.54:966][851]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:53:54 AM)
+[2018.01.12-23.53.54:966][851]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.53.54:971][851]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004593s)
+[2018.01.12-23.53.54:972][851]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.53.54:972][851]LogPlayLevel: PIE: World Init took: (0.000890s)
+[2018.01.12-23.53.54:972][851]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005792s)
+[2018.01.12-23.53.55:005][851]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.53.55:011][851]LogInit: FAudioDevice initialized.
+[2018.01.12-23.53.55:049][851]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.53.55:138][851]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.53.55
+[2018.01.12-23.53.55:139][851]LogWorld: Bringing up level for play took: 0.087942
+[2018.01.12-23.53.55:142][851]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.004
+[2018.01.12-23.55.03:760][107]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.03:782][107]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.05:210][158]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2018.01.12-23.55.05:210][158]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.55.05:210][158]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.55.05:210][158]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.55.06:918][249]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.07:976][285]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.55.08:593][285]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.08:700][285]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.08:755][285]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.08:831][285]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.55.09:489][285]TextureStreamingBuild:Display: Compiling optional shaders took 0.667 seconds.
+[2018.01.12-23.55.11:682][384]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2018.01.12-23.55.11:683][384]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.55.11:683][384]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.55.11:683][384]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.55.13:815][507]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.55.13:832][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.55.13:832][507]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:55:13 AM)
+[2018.01.12-23.55.13:832][507]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.55.13:836][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003185s)
+[2018.01.12-23.55.13:836][507]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.55.13:836][507]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.01.12-23.55.13:836][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004145s)
+[2018.01.12-23.55.13:863][507]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.55.13:868][507]LogInit: FAudioDevice initialized.
+[2018.01.12-23.55.13:900][507]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.55.13:972][507]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.55.13
+[2018.01.12-23.55.13:972][507]LogWorld: Bringing up level for play took: 0.071297
+[2018.01.12-23.55.13:975][507]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.829
+[2018.01.12-23.55.52:032][916]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.53:544][979]MaterialEditorStats: Info Base pass shader: 95 instructions
+[2018.01.12-23.55.53:544][979]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.55.53:544][979]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.55.53:544][979]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.55.54:964][ 64]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.56:117][104]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.55.56:117][104]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.55.56:117][104]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.55.56:117][104]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.55.56:266][113]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.55.56:881][113]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.56:988][113]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.57:045][113]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.55.57:121][113]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.55.57:773][113]TextureStreamingBuild:Display: Compiling optional shaders took 0.661 seconds.
+[2018.01.12-23.55.59:955][219]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.55.59:955][219]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.55.59:955][219]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.55.59:955][219]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.56.03:670][444]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.56.03:689][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.56.03:689][444]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:56:03 AM)
+[2018.01.12-23.56.03:689][444]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.56.03:693][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003325s)
+[2018.01.12-23.56.03:693][444]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.56.03:693][444]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2018.01.12-23.56.03:693][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004263s)
+[2018.01.12-23.56.03:718][444]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.56.03:722][444]LogInit: FAudioDevice initialized.
+[2018.01.12-23.56.03:757][444]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.56.03:831][444]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.56.03
+[2018.01.12-23.56.03:831][444]LogWorld: Bringing up level for play took: 0.072208
+[2018.01.12-23.56.03:834][444]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.688
+[2018.01.12-23.56.19:836][486]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.56.21:256][537]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.56.21:256][537]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.56.21:256][537]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.56.21:256][537]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.56.21:903][575]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.56.22:535][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.56.22:649][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.56.22:709][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.56.22:783][575]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.56.23:428][575]TextureStreamingBuild:Display: Compiling optional shaders took 0.654 seconds.
+[2018.01.12-23.56.25:595][675]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.56.25:595][675]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.56.25:595][675]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.56.25:595][675]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.56.32:569][ 76]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.56.32:587][ 76]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.56.32:588][ 76]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:56:32 AM)
+[2018.01.12-23.56.32:588][ 76]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.56.32:591][ 76]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003183s)
+[2018.01.12-23.56.32:592][ 76]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.56.32:592][ 76]LogPlayLevel: PIE: World Init took: (0.000627s)
+[2018.01.12-23.56.32:592][ 76]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004029s)
+[2018.01.12-23.56.32:619][ 76]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.56.32:624][ 76]LogInit: FAudioDevice initialized.
+[2018.01.12-23.56.32:659][ 76]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.56.32:732][ 76]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.56.32
+[2018.01.12-23.56.32:732][ 76]LogWorld: Bringing up level for play took: 0.071818
+[2018.01.12-23.56.32:735][ 76]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.411
+[2018.01.12-23.57.00:351][790]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.01:798][848]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.57.02:435][848]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.02:546][848]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.02:602][848]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.02:672][848]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.57.03:340][848]TextureStreamingBuild:Display: Compiling optional shaders took 0.675 seconds.
+[2018.01.12-23.57.05:524][947]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.57.05:524][947]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.57.05:524][947]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.57.05:524][947]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.57.07:610][ 63]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.57.07:628][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.57.07:629][ 63]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:57:07 AM)
+[2018.01.12-23.57.07:629][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.57.07:633][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004596s)
+[2018.01.12-23.57.07:634][ 63]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.57.07:634][ 63]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2018.01.12-23.57.07:634][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005688s)
+[2018.01.12-23.57.07:662][ 63]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.57.07:667][ 63]LogInit: FAudioDevice initialized.
+[2018.01.12-23.57.07:696][ 63]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.57.07:770][ 63]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.57.07
+[2018.01.12-23.57.07:770][ 63]LogWorld: Bringing up level for play took: 0.072152
+[2018.01.12-23.57.07:773][ 63]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.626
+[2018.01.12-23.57.15:610][525]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.16:623][564]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.57.16:623][564]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2018.01.12-23.57.16:623][564]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.12-23.57.16:623][564]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.57.16:906][581]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.57.17:546][581]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.17:665][581]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.17:724][581]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.17:798][581]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.57.18:432][581]TextureStreamingBuild:Display: Compiling optional shaders took 0.642 seconds.
+[2018.01.12-23.57.20:283][660]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.57.20:301][660]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.57.20:301][660]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:57:20 AM)
+[2018.01.12-23.57.20:301][660]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.57.20:305][660]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003131s)
+[2018.01.12-23.57.20:305][660]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.57.20:305][660]LogPlayLevel: PIE: World Init took: (0.000836s)
+[2018.01.12-23.57.20:306][660]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004198s)
+[2018.01.12-23.57.20:335][660]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.57.20:340][660]LogInit: FAudioDevice initialized.
+[2018.01.12-23.57.20:371][660]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.57.20:451][660]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.57.20
+[2018.01.12-23.57.20:452][660]LogWorld: Bringing up level for play took: 0.078900
+[2018.01.12-23.57.20:455][660]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.692
+[2018.01.12-23.57.20:620][668]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2018.01.12-23.57.20:620][668]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2018.01.12-23.57.20:620][668]MaterialEditorStats: Info Texture samplers: 2/16
+[2018.01.12-23.57.20:620][668]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.57.46:119][224]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.46:155][224]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.47:845][287]MaterialEditorStats: Info Base pass shader: 45 instructions
+[2018.01.12-23.57.47:845][287]MaterialEditorStats: Info Vertex shader: 121 instructions
+[2018.01.12-23.57.47:845][287]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.57.49:936][402]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.51:075][440]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.57.51:075][440]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.57.51:075][440]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.57.51:075][440]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.57.51:517][464]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.57.52:121][464]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.52:219][464]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.52:253][464]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.57.52:314][464]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.57.52:915][464]TextureStreamingBuild:Display: Compiling optional shaders took 0.609 seconds.
+[2018.01.12-23.57.55:457][585]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.57.55:477][585]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.57.55:478][585]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:57:55 AM)
+[2018.01.12-23.57.55:478][585]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.57.55:482][585]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003985s)
+[2018.01.12-23.57.55:482][585]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.57.55:482][585]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2018.01.12-23.57.55:483][585]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004916s)
+[2018.01.12-23.57.55:509][585]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.57.55:514][585]LogInit: FAudioDevice initialized.
+[2018.01.12-23.57.55:550][585]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.57.55:622][585]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.57.55
+[2018.01.12-23.57.55:623][585]LogWorld: Bringing up level for play took: 0.071113
+[2018.01.12-23.57.55:625][585]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.479
+[2018.01.12-23.57.55:680][586]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.57.55:680][586]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.57.55:680][586]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.57.55:680][586]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.58.34:151][862]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.58.34:239][863]LogMaterial: Missing cached shader map for material Material_3, compiling. 
+[2018.01.12-23.58.35:672][918]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.58.35:672][918]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.58.35:672][918]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.58.35:672][918]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.58.40:712][212]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.58.41:791][246]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.58.41:791][246]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.58.41:791][246]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.58.41:791][246]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.58.53:956][939]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.58.54:576][939]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.58.54:661][939]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.58.54:692][939]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.58.54:752][939]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.58.55:408][939]TextureStreamingBuild:Display: Compiling optional shaders took 0.663 seconds.
+[2018.01.12-23.58.55:934][961]LogMaterialEditor: Saving and Compiling material M_Grid
+[2018.01.12-23.58.57:779][961]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Grid" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/M_Grid.uasset" SILENT=true
+[2018.01.12-23.58.57:812][961]LogSavePackage: Save=24.42ms
+[2018.01.12-23.58.57:812][961]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/M_Grid7C1607A9402314C8BCF402A9C0ADB9E3.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/M_Grid.uasset'
+[2018.01.12-23.58.57:817][961]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/M_Grid.uasset
+[2018.01.12-23.58.57:826][961]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.58.57:826][961]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.58.57:826][961]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.58.57:826][961]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.58.58:409][995]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.58.58:426][995]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.58.58:427][995]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:58:58 AM)
+[2018.01.12-23.58.58:427][995]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.58.58:430][995]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003139s)
+[2018.01.12-23.58.58:430][995]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.58.58:430][995]LogPlayLevel: PIE: World Init took: (0.000629s)
+[2018.01.12-23.58.58:431][995]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.003979s)
+[2018.01.12-23.58.58:456][995]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.58.58:460][995]LogInit: FAudioDevice initialized.
+[2018.01.12-23.58.58:494][995]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.58.58:567][995]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.58.58
+[2018.01.12-23.58.58:567][995]LogWorld: Bringing up level for play took: 0.072259
+[2018.01.12-23.58.58:570][995]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.576
+[2018.01.12-23.59.32:635][971]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.32:652][971]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.34:074][ 24]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.59.34:074][ 24]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.59.34:074][ 24]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.59.34:074][ 24]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.59.34:918][ 76]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.36:096][119]MaterialEditorStats: Info Base pass shader: 57 instructions
+[2018.01.12-23.59.36:096][119]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.59.36:096][119]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.59.36:096][119]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.59.38:406][251]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.39:566][291]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.12-23.59.39:566][291]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.59.39:566][291]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.59.39:566][291]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.59.40:713][360]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.41:558][387]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.42:662][426]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.42:679][426]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.42:679][426]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Grid for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.12-23.59.42:679][426]LogMaterial:Warning: 	(Node Power) Missing Power Base input
+[2018.01.12-23.59.42:683][426]MaterialEditorStats:Error: Error [SM5] (Node Power) Missing Power Base input
+[2018.01.12-23.59.43:868][490]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.45:036][530]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.12-23.59.45:036][530]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.59.45:036][530]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.59.45:036][530]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.12-23.59.45:167][538]LogMaterialEditor: Applying material M_Grid
+[2018.01.12-23.59.45:776][538]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.45:873][538]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.45:908][538]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.12-23.59.45:963][538]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.12-23.59.46:577][538]TextureStreamingBuild:Display: Compiling optional shaders took 0.621 seconds.
+[2018.01.12-23.59.48:474][626]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.12-23.59.48:493][626]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.12-23.59.48:493][626]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 7:59:48 AM)
+[2018.01.12-23.59.48:493][626]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.12-23.59.48:496][626]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003189s)
+[2018.01.12-23.59.48:497][626]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.12-23.59.48:497][626]LogPlayLevel: PIE: World Init took: (0.000623s)
+[2018.01.12-23.59.48:497][626]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004052s)
+[2018.01.12-23.59.48:524][626]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.12-23.59.48:529][626]LogInit: FAudioDevice initialized.
+[2018.01.12-23.59.48:561][626]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.12-23.59.48:650][626]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-15.59.48
+[2018.01.12-23.59.48:650][626]LogWorld: Bringing up level for play took: 0.086884
+[2018.01.12-23.59.48:653][626]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.493
+[2018.01.12-23.59.49:181][654]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.12-23.59.49:181][654]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.12-23.59.49:181][654]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.12-23.59.49:181][654]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.00.14:452][239]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.00.15:388][273]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.00.16:128][273]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.00.16:222][273]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.00.16:254][273]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.00.16:312][273]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.00.16:937][273]TextureStreamingBuild:Display: Compiling optional shaders took 0.632 seconds.
+[2018.01.13-00.00.18:778][359]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-00.00.18:797][359]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-00.00.18:797][359]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 8:00:18 AM)
+[2018.01.13-00.00.18:797][359]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.13-00.00.18:802][359]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004489s)
+[2018.01.13-00.00.18:802][359]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.13-00.00.18:803][359]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2018.01.13-00.00.18:803][359]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005433s)
+[2018.01.13-00.00.18:830][359]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-00.00.18:834][359]LogInit: FAudioDevice initialized.
+[2018.01.13-00.00.18:870][359]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.13-00.00.18:946][359]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-16.00.18
+[2018.01.13-00.00.18:946][359]LogWorld: Bringing up level for play took: 0.074936
+[2018.01.13-00.00.18:949][359]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.198
+[2018.01.13-00.00.19:554][392]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.00.19:554][392]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.00.19:554][392]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.00.19:554][392]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.06:908][309]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.08:364][366]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.08:364][366]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.08:364][366]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.08:364][366]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.14:408][711]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.15:502][751]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.15:502][751]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.15:502][751]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.15:502][751]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.16:077][784]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.01.16:688][784]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.16:779][784]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.16:810][784]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.16:869][784]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.01.17:536][784]TextureStreamingBuild:Display: Compiling optional shaders took 0.674 seconds.
+[2018.01.13-00.01.20:077][911]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.20:077][911]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.20:077][911]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.20:077][911]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.26:345][279]Cmd: SELECT NONE
+[2018.01.13-00.01.30:792][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.31:913][621]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.31:913][621]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.31:913][621]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.31:913][621]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.32:129][635]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.01.32:748][635]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.32:839][635]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.32:871][635]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.32:929][635]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.01.33:568][635]TextureStreamingBuild:Display: Compiling optional shaders took 0.647 seconds.
+[2018.01.13-00.01.36:188][786]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.36:188][786]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.36:188][786]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.36:188][786]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.44:873][371]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.45:958][416]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.45:958][416]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.45:958][416]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.45:958][416]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.46:090][425]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.01.46:710][425]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.46:803][425]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.46:838][425]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.46:894][425]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.01.47:584][425]TextureStreamingBuild:Display: Compiling optional shaders took 0.698 seconds.
+[2018.01.13-00.01.50:183][576]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.50:183][576]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.50:183][576]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.50:183][576]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.56:854][ 13]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.57:950][ 58]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.01.57:950][ 58]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.01.57:950][ 58]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.01.57:950][ 58]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.01.58:070][ 66]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.01.58:672][ 66]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.58:759][ 66]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.58:793][ 66]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.01.58:853][ 66]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.01.59:442][ 66]TextureStreamingBuild:Display: Compiling optional shaders took 0.597 seconds.
+[2018.01.13-00.02.02:081][214]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.02.02:081][214]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.02:081][214]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.02:081][214]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.04:525][375]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.05:227][401]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.05:250][401]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.06:376][442]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.02.06:994][442]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.07:078][442]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.07:117][442]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.07:182][442]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.02.07:795][442]TextureStreamingBuild:Display: Compiling optional shaders took 0.621 seconds.
+[2018.01.13-00.02.10:354][586]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.13-00.02.10:354][586]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.10:354][586]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.10:354][586]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.20:231][245]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.21:353][289]MaterialEditorStats: Info Base pass shader: 49 instructions
+[2018.01.13-00.02.21:353][289]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.21:353][289]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.21:353][289]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.21:457][296]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.21:474][296]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.21:493][296]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.22:556][342]MaterialEditorStats: Info Base pass shader: 54 instructions
+[2018.01.13-00.02.22:556][342]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.22:556][342]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.22:556][342]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.22:757][355]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.23:616][386]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.24:225][407]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.24:250][407]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.24:250][407]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_Grid for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.13-00.02.24:250][407]LogMaterial:Warning: 	(Node Power) Missing Power Base input
+[2018.01.13-00.02.24:257][407]MaterialEditorStats:Error: Error [SM5] (Node Power) Missing Power Base input
+[2018.01.13-00.02.25:448][474]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.26:542][516]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.02.26:542][516]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.26:542][516]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.26:542][516]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.33:354][973]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.34:435][ 17]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.02.34:435][ 17]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.34:435][ 17]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.34:435][ 17]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.34:541][ 24]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.02.35:163][ 24]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.35:258][ 24]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.35:293][ 24]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.02.35:353][ 24]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.02.36:050][ 24]TextureStreamingBuild:Display: Compiling optional shaders took 0.704 seconds.
+[2018.01.13-00.02.38:622][171]MaterialEditorStats: Info Base pass shader: 55 instructions
+[2018.01.13-00.02.38:622][171]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.02.38:622][171]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.02.38:622][171]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.02.42:231][394]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-00.02.42:249][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-00.02.42:250][394]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 8:02:42 AM)
+[2018.01.13-00.02.42:250][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.13-00.02.42:253][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003276s)
+[2018.01.13-00.02.42:254][394]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.13-00.02.42:254][394]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.01.13-00.02.42:254][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004252s)
+[2018.01.13-00.02.42:278][394]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-00.02.42:283][394]LogInit: FAudioDevice initialized.
+[2018.01.13-00.02.42:316][394]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.13-00.02.42:391][394]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-16.02.42
+[2018.01.13-00.02.42:391][394]LogWorld: Bringing up level for play took: 0.073642
+[2018.01.13-00.02.42:394][394]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.752
+[2018.01.13-00.03.00:912][523]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.02:138][575]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.03.02:784][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.02:873][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.02:902][575]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.02:962][575]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.03.03:553][575]TextureStreamingBuild:Display: Compiling optional shaders took 0.598 seconds.
+[2018.01.13-00.03.06:204][725]MaterialEditorStats: Info Base pass shader: 56 instructions
+[2018.01.13-00.03.06:204][725]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.03.06:204][725]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.03.06:204][725]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.03.10:607][ 12]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-00.03.10:630][ 12]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-00.03.10:631][ 12]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 8:03:10 AM)
+[2018.01.13-00.03.10:631][ 12]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.13-00.03.10:635][ 12]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003899s)
+[2018.01.13-00.03.10:635][ 12]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.13-00.03.10:636][ 12]LogPlayLevel: PIE: World Init took: (0.001077s)
+[2018.01.13-00.03.10:636][ 12]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005434s)
+[2018.01.13-00.03.10:663][ 12]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-00.03.10:667][ 12]LogInit: FAudioDevice initialized.
+[2018.01.13-00.03.10:698][ 12]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.13-00.03.10:774][ 12]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-16.03.10
+[2018.01.13-00.03.10:774][ 12]LogWorld: Bringing up level for play took: 0.074364
+[2018.01.13-00.03.10:777][ 12]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel -0.369
+[2018.01.13-00.03.24:013][842]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.25:210][900]MaterialEditorStats: Info Base pass shader: 56 instructions
+[2018.01.13-00.03.25:210][900]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.03.25:210][900]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.03.25:210][900]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.03.30:843][275]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.31:909][321]MaterialEditorStats: Info Base pass shader: 56 instructions
+[2018.01.13-00.03.31:909][321]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.03.31:909][321]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.03.31:909][321]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.03.31:973][325]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.03.32:594][325]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.32:684][325]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.32:715][325]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.32:770][325]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.03.33:409][325]TextureStreamingBuild:Display: Compiling optional shaders took 0.645 seconds.
+[2018.01.13-00.03.36:006][469]MaterialEditorStats: Info Base pass shader: 56 instructions
+[2018.01.13-00.03.36:006][469]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.03.36:006][469]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.03.36:006][469]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.03.37:897][597]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-00.03.37:918][597]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-00.03.37:918][597]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 8:03:37 AM)
+[2018.01.13-00.03.37:918][597]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.13-00.03.37:922][597]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003985s)
+[2018.01.13-00.03.37:923][597]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.13-00.03.37:923][597]LogPlayLevel: PIE: World Init took: (0.000848s)
+[2018.01.13-00.03.37:924][597]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.005093s)
+[2018.01.13-00.03.37:954][597]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-00.03.37:959][597]LogInit: FAudioDevice initialized.
+[2018.01.13-00.03.37:993][597]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.13-00.03.38:065][597]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-16.03.38
+[2018.01.13-00.03.38:065][597]LogWorld: Bringing up level for play took: 0.070686
+[2018.01.13-00.03.38:068][597]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.922
+[2018.01.13-00.03.47:366][174]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.48:225][204]LogMaterialEditor: Applying material M_Grid
+[2018.01.13-00.03.48:880][204]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.48:974][204]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.49:011][204]LogMaterial: Missing cached shader map for material M_Grid, compiling. 
+[2018.01.13-00.03.49:072][204]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Grid, compiling. 
+[2018.01.13-00.03.49:690][204]TextureStreamingBuild:Display: Compiling optional shaders took 0.626 seconds.
+[2018.01.13-00.03.52:254][341]MaterialEditorStats: Info Base pass shader: 57 instructions
+[2018.01.13-00.03.52:254][341]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2018.01.13-00.03.52:254][341]MaterialEditorStats: Info Texture samplers: 4/16
+[2018.01.13-00.03.52:254][341]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2018.01.13-00.03.53:712][431]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.13-00.03.53:732][431]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.13-00.03.53:732][431]PIE: New page: PIE session: TestLevel (Jan 12, 2018, 8:03:53 AM)
+[2018.01.13-00.03.53:733][431]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestLevel
+[2018.01.13-00.03.53:736][431]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003326s)
+[2018.01.13-00.03.53:736][431]LogAIModule: Creating AISystem for world TestLevel
+[2018.01.13-00.03.53:737][431]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2018.01.13-00.03.53:737][431]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestLevel.TestLevel to /Game/UEDPIE_0_TestLevel.TestLevel (0.004223s)
+[2018.01.13-00.03.53:766][431]LogInit: XAudio2 using 'Speakers (M-Audio M-Track 2X2)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.13-00.03.53:771][431]LogInit: FAudioDevice initialized.
+[2018.01.13-00.03.53:804][431]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.01.13-00.03.53:882][431]LogWorld: Bringing World /Game/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2018.01.12-16.03.53
+[2018.01.13-00.03.53:882][431]LogWorld: Bringing up level for play took: 0.076744
+[2018.01.13-00.03.53:885][431]PIE: Info Play in editor start time for /Game/UEDPIE_0_TestLevel 0.739
+[2018.01.13-00.04.09:627][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestLevel" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.13-00.04.09:747][345]LogSavePackage: Save=94.86ms
+[2018.01.13-00.04.09:748][345]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/TestLevelE7B282CB41F4356961FFE08174783538.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap'
+[2018.01.13-00.04.09:756][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/TestLevel.umap
+[2018.01.13-00.04.09:792][345]LogFileHelpers: Saving map 'TestLevel' took 0.246
+[2018.01.13-00.04.09:808][345]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/M_Grid" FILE="../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/M_Grid.uasset" SILENT=true
+[2018.01.13-00.04.09:842][345]LogSavePackage: Save=26.05ms
+[2018.01.13-00.04.09:842][345]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/M_Grid248DFAD5489B6A7553C6159780CDB8CE.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/M_Grid.uasset'
+[2018.01.13-00.04.09:846][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/M_Grid.uasset
+[2018.01.13-00.04.09:928][345]LogSavePackage: Save=56.73ms
+[2018.01.13-00.04.09:928][345]LogSavePackage: Moving '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Saved/ThirdPersonCharacter27548A7941586A17D78E84A18CFD1A27.tmp' to '../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2018.01.13-00.04.09:932][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/ryang/OneDrive - gadz gamz 1/Projects/BlueprintOctrees/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
